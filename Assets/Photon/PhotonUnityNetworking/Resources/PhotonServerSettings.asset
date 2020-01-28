@@ -34,5 +34,19 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - ChangeParent
+  - HideToolTip
+  - IsNotSnapped
+  - IsSnapped
+  - PartAssembly
+  - resetModule
+  - ResetParent
+  - RPC_ResetPlacement
+  - Rpc_SetModuleParent
+  - RPC_SetNickName
+  - RPC_SetSharedAnchorID
+  - ShowToolTip
+  - StartThurster
+  - ToggleGameObjects1
   DisableAutoOpenWizard: 1
   ShowSettings: 1
