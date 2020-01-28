@@ -8,16 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Launcher.unity
     guid: 40ba081e25e483043830a42be9c74add
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Hololens Launcher.unity
+    guid: 9d3d1a37cb6b3304d8860d98b1423c86
+  - enabled: 1
     path: Assets/Scenes/Room for 1.unity
     guid: 397c1dc7ec568e2458972da0cd812508
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Room for 2.unity
     guid: 64b6757c95e8bf9419c2e3352795f0b2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Room for 3.unity
     guid: c855de8c8ca8917469e3c57a5a4e0322
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Room for 4.unity
     guid: 555ee49dee207aa4c9ef3b6ce1175d39
   - enabled: 0
@@ -66,7 +69,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity
     guid: 711b38c07f2cf904f81b3422c67f1825
-  - enabled: 1
-    path: Assets/Scenes/Hololens Launcher.unity
-    guid: 9d3d1a37cb6b3304d8860d98b1423c86
   m_configObjects: {}
