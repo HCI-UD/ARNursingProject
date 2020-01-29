@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Launcher.unity
     guid: 40ba081e25e483043830a42be9c74add
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hololens Launcher.unity
     guid: 9d3d1a37cb6b3304d8860d98b1423c86
   - enabled: 1
