@@ -12,18 +12,33 @@ EditorBuildSettings:
     path: Assets/Scenes/StartupSceneClient.unity
     guid: b7b9a52f698cd32419ad60d42095d862
   - enabled: 1
+    path: Assets/Scenes/Hololens Launcher.unity
+    guid: 64b55cdcd85c6a141b7390765a52209f
+  - enabled: 1
+    path: Assets/Scenes/Hololens Room for 1.unity
+    guid: 4854bc1eff8ac9645b15c67e02c6cd83
+  - enabled: 1
+    path: Assets/Scenes/Hololens Room for 2.unity
+    guid: d64392e5a67bc5446b60a82371b881bc
+  - enabled: 1
+    path: Assets/Scenes/Hololens Room for 3.unity
+    guid: e7a61ea07128fe944a61850ea3ab6130
+  - enabled: 1
+    path: Assets/Scenes/Hololens Room for 4.unity
+    guid: eda2b5a24cb29bd44858fcf1dc361a42
+  - enabled: 0
     path: Assets/Scenes/Launcher.unity
     guid: 40ba081e25e483043830a42be9c74add
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 1.unity
     guid: 397c1dc7ec568e2458972da0cd812508
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 2.unity
     guid: 64b6757c95e8bf9419c2e3352795f0b2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 3.unity
     guid: c855de8c8ca8917469e3c57a5a4e0322
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 4.unity
     guid: 555ee49dee207aa4c9ef3b6ce1175d39
   - enabled: 0
