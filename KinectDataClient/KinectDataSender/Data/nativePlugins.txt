@@ -1,0 +1,3 @@
+KinectFaceUnityAddin.dll
+AudioPluginMsHRTF.dll
+KinectUnityAddin.dll
