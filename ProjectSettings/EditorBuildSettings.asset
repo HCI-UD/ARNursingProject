@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/StartupSceneServer.unity
     guid: 720e38f9201b668408e44b4467728955
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartupSceneClient.unity
     guid: b7b9a52f698cd32419ad60d42095d862
   - enabled: 1
+    path: Assets/Scenes/Launcher.unity
+    guid: 40ba081e25e483043830a42be9c74add
+  - enabled: 0
     path: Assets/Scenes/Hololens Launcher.unity
     guid: 64b55cdcd85c6a141b7390765a52209f
   - enabled: 1
@@ -26,9 +29,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hololens Room for 4.unity
     guid: eda2b5a24cb29bd44858fcf1dc361a42
-  - enabled: 0
-    path: Assets/Scenes/Launcher.unity
-    guid: 40ba081e25e483043830a42be9c74add
   - enabled: 0
     path: Assets/Scenes/Room for 1.unity
     guid: 397c1dc7ec568e2458972da0cd812508

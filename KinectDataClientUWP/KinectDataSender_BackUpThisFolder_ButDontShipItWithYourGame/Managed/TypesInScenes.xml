@@ -65,6 +65,7 @@
 		<type fullname="AvatarController" preserve="nothing"/>
 		<type fullname="BallMover" preserve="nothing"/>
 		<type fullname="BallSpawner" preserve="nothing"/>
+		<type fullname="BlendShapeFaceController" preserve="nothing"/>
 		<type fullname="FacetrackingManager" preserve="nothing"/>
 		<type fullname="HCI.UD.KinectSender.CameraWork" preserve="nothing"/>
 		<type fullname="HCI.UD.KinectSender.GameManager" preserve="nothing"/>
@@ -100,10 +101,6 @@
 		<type fullname="GitHub.Unity.RepositoryInfoCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.Window" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="Microsoft.MixedReality.Toolkit.Editor.Inspectors">
-		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.AnimatedCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.FingerCursor" preserve="nothing"/>
@@ -117,10 +114,13 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.SpherePointerGrabPoint" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.SpherePointerVisual" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.TouchPointer" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.SubmitEventRouter" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButton" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.Interactable" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.States" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.Theme" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.Orbital" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler" preserve="nothing"/>
 	</assembly>
@@ -133,9 +133,9 @@
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputSystem">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.GazeProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchable" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.Utilities.CanvasUtility" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.Utilities.ScaleMeshEffect" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit">
 		<type fullname="Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile" preserve="nothing"/>
@@ -161,6 +161,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierInertia" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.HoverLight" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.MaintainBorderLightWidth" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ProximityLight" preserve="nothing"/>
@@ -177,6 +178,9 @@
 		<type fullname="Photon.Pun.Demo.SlotRacer.PlayerControl" preserve="nothing"/>
 		<type fullname="Photon.Pun.Demo.SlotRacer.Utils.SplineWalker" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="PhotonUnityNetworking.Editor">
+		<type fullname="Photon.Pun.PunSceneSettings" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="PhotonUnityNetworking">
 		<type fullname="Photon.Pun.PhotonAnimatorView" preserve="nothing"/>
 		<type fullname="Photon.Pun.PhotonRigidbodyView" preserve="nothing"/>
@@ -189,7 +193,7 @@
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
-		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
+		<type fullname="TMPro.TextMeshPro" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEditor.TestRunner">
 		<type fullname="UnityEditor.TestTools.TestRunner.TestListCacheData" preserve="nothing"/>

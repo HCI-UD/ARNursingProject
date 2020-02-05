@@ -18356,6 +18356,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsMasterClient_m73F928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadArena_m3AC56693FCF53163B3AB1977BEE97C97FB599626 (GameManager_t47EE569A524BE2848AD116DDCBAA7531B92446AC * __this, const RuntimeMethod* method);
 // System.Boolean Photon.Pun.PhotonNetwork::LeaveRoom(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_LeaveRoom_m7BA91C9FF1E1D2767BDBF040B920EEC7A5736733 (bool p0, const RuntimeMethod* method);
+// System.Void UnityEngine.Application::Quit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mA005EB22CB989AC3794334754F15E1C0D2FF1C95 (const RuntimeMethod* method);
 // Photon.Realtime.Room Photon.Pun.PhotonNetwork::get_CurrentRoom()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Room_t5DFC39DD6736A2641374564EC6C31352BE33000D * PhotonNetwork_get_CurrentRoom_m493DA29D80F75DC0BEFF3125207AE9101C0100A1 (const RuntimeMethod* method);
 // System.Byte Photon.Realtime.Room::get_PlayerCount()
@@ -38435,6 +38437,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LeaveRoom_m87A773F3035B0AAF6
 		return;
 	}
 }
+// System.Void HCI.UD.KinectSender.GameManager::Exit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Exit_m162BEFC185D445D90FD006DF2DFDF502CD9BC9E8 (GameManager_t47EE569A524BE2848AD116DDCBAA7531B92446AC * __this, const RuntimeMethod* method)
+{
+	{
+		// Application.Quit();
+		Application_Quit_mA005EB22CB989AC3794334754F15E1C0D2FF1C95(/*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
 // System.Void HCI.UD.KinectSender.GameManager::LoadArena()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadArena_m3AC56693FCF53163B3AB1977BEE97C97FB599626 (GameManager_t47EE569A524BE2848AD116DDCBAA7531B92446AC * __this, const RuntimeMethod* method)
 {
@@ -38678,6 +38690,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensGameManager_LeaveRoom_m88592D228
 		// PhotonNetwork.LeaveRoom();
 		IL2CPP_RUNTIME_CLASS_INIT(PhotonNetwork_tDB10770C2795BD94850C3BE2AA04AE3ED559EB5A_il2cpp_TypeInfo_var);
 		PhotonNetwork_LeaveRoom_m7BA91C9FF1E1D2767BDBF040B920EEC7A5736733((bool)1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void HCI.UD.KinectSender.HololensGameManager::Exit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensGameManager_Exit_m9A5850F8CE57D41DD6DA6C873428CE130E959385 (HololensGameManager_t23E59999D4D1FC1ACA2B020C4C33321D7580195F * __this, const RuntimeMethod* method)
+{
+	{
+		// Application.Quit();
+		Application_Quit_mA005EB22CB989AC3794334754F15E1C0D2FF1C95(/*hidden argument*/NULL);
 		// }
 		return;
 	}

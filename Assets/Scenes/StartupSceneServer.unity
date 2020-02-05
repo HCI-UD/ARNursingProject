@@ -528,6 +528,11 @@ PrefabInstance:
       propertyPath: debugText
       value: 
       objectReference: {fileID: 760639422}
+    - target: {fileID: 6316412526937902307, guid: ef5deb7586377c54a972e995864deff5,
+        type: 3}
+      propertyPath: estimateJointVelocities
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef5deb7586377c54a972e995864deff5, type: 3}
 --- !u!1 &1371207827

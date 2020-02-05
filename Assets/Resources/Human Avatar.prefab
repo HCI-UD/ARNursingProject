@@ -2372,7 +2372,8 @@ GameObject:
   - component: {fileID: 2118177065}
   - component: {fileID: 2118177066}
   - component: {fileID: 2118177067}
-  - component: {fileID: 5138359470870406583}
+  - component: {fileID: 1444120570}
+  - component: {fileID: 6375116626652944647}
   m_Layer: 0
   m_Name: Human Avatar
   m_TagString: Untagged
@@ -2441,9 +2442,9 @@ MonoBehaviour:
   externalRootMotion: 0
   externalHeadRotation: 0
   externalHandRotations: 0
-  fingerOrientations: 1
+  fingerOrientations: 0
   moveRate: 1
-  smoothFactor: 10
+  smoothFactor: 30
   offsetNode: {fileID: 0}
   posRelativeToCamera: {fileID: 0}
   posRelOverlayColor: 0
@@ -2509,7 +2510,7 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &5138359470870406583
+--- !u!114 &1444120570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2518,20 +2519,61 @@ MonoBehaviour:
   m_GameObject: {fileID: 4322228494830216968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eedf84d761a4dc4ba2ed284ddf51aa1, type: 3}
+  m_Script: {fileID: 11500000, guid: d8eda440b4672094ca9cc38451e8fe82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerIndex: 0
-  getFaceModelData: 0
-  displayFaceRect: 0
-  faceTrackingTolerance: 0.5
-  faceModelMesh: {fileID: 4976479010758618321}
-  pauseModelMeshUpdates: 0
-  texturedModelMesh: 1
-  moveModelMesh: 0
+  headTransform: {fileID: 7151725537172362418}
+  mirroredHeadMovement: 1
   foregroundCamera: {fileID: 0}
-  modelMeshScale: 1
-  verticalMeshOffset: 0
+  verticalOffset: 0
+  modelScaleFactor: 1
+  moveSmoothFactor: 10
+  skinnedMeshRenderer: {fileID: 0}
+  faceAnimUnits: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
+  faceBlendShapes:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  valueMultiplier: 100
+  blendSmoothFactor: 10
+--- !u!114 &6375116626652944647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322228494830216968}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12df0c9d1a69101409c3a8a60c98f0c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerIndex: 0
+  mirroredAvatar: 0
+  minUserDistance: 1.5
+  bodyScaleFactor: 1
+  bodyWidthFactor: 1
+  armScaleFactor: 1
+  legScaleFactor: 1
+  continuousScaling: 1
+  smoothFactor: 5
+  foregroundCamera: {fileID: 0}
+  backgroundPlane: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1 &4368443887122978170
 GameObject:

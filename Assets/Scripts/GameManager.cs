@@ -56,6 +56,11 @@ namespace HCI.UD.KinectSender
         {
             PhotonNetwork.LeaveRoom();
         }
+
+        public void Exit()
+        {
+            Application.Quit();
+        }
         #endregion
 
         #region Private Methods

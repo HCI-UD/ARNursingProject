@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   broadcastPort: 8889
-  serverHost: 0.0.0.0
+  serverHost: 128.4.165.93
   serverPort: 8888
   clientPort: 8887
   reconnectAfter: 2
@@ -70,8 +70,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensorHeight: 1
   sensorAngle: 0
-  autoHeightAngle: 0
-  computeUserMap: 1
+  autoHeightAngle: 2
+  computeUserMap: 3
   computeColorMap: 0
   computeInfraredMap: 0
   displayUserMap: 0
@@ -89,11 +89,11 @@ MonoBehaviour:
   ignoreZCoordinates: 0
   lateUpdateAvatars: 0
   skipRemoteAvatars: 0
-  smoothing: 1
+  smoothing: 3
   useBoneOrientationConstraints: 1
   estimateJointVelocities: 0
-  velocitySmoothing: 2
-  allowTurnArounds: 0
+  velocitySmoothing: 3
+  allowTurnArounds: 1
   allowedHandRotations: 2
   waitTimeBeforeRemove: 1
   avatarControllers: []
