@@ -2561,7 +2561,7 @@ GameObject:
   - component: {fileID: 4413608420205676937}
   - component: {fileID: 8538094875885347319}
   m_Layer: 0
-  m_Name: person1 (4)
+  m_Name: Jaw Avatar Fixed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2690,8 +2690,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerIndex: 0
-  headTransform: {fileID: 7959818803023835222}
-  mirroredHeadMovement: 1
+  headTransform: {fileID: 0}
+  mirroredHeadMovement: 0
   foregroundCamera: {fileID: 0}
   verticalOffset: 0
   modelScaleFactor: 1

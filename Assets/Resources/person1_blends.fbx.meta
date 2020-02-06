@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3906178c8b600774c8a8e53a1ebe5f76
+guid: 106a088027e255d418775ddd59333810
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -7,52 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Person1_Eyebrow001_Eyebrow001
-    second: {fileID: 2100000, guid: 197311cbb40f3b74ca9d402a8dbce2b8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Person1_Eyelashes01_Bodymaterial
-    second: {fileID: 2100000, guid: dade730201c42e149afb723192be3ca7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Person1_High-poly_Eye_brown
-    second: {fileID: 2100000, guid: bdd855b3b2e504040b61ea5b920d3996, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Person1_Male_casualsuit01_Male_casualsuit01
-    second: {fileID: -5413548030848394617, guid: 2546bd499c6db944cadd35f536b2b8e6,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Person1_Male_generic_Defaultskin
-    second: {fileID: -7787589622749264625, guid: 2546bd499c6db944cadd35f536b2b8e6,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Person1_Shoes03_Shoes03
-    second: {fileID: 5934458952713216406, guid: 2546bd499c6db944cadd35f536b2b8e6,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Person1_Short01_Mhair01black
-    second: {fileID: 2100000, guid: 6bfb27182e159c345982fa793b2de5c8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Person1_Teeth_base_Teethmaterial
-    second: {fileID: -4679105195529932084, guid: 2546bd499c6db944cadd35f536b2b8e6,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Person1_Tongue01_Tongue01material
-    second: {fileID: 3055216149366846790, guid: 2546bd499c6db944cadd35f536b2b8e6,
+    second: {fileID: 6981837272987402504, guid: 106a088027e255d418775ddd59333810,
       type: 3}
   materials:
     importMaterials: 1
@@ -563,13 +519,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: person1 (4)(Clone)
+    - name: person1_blends(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Person1
-      parentName: person1 (4)(Clone)
+      parentName: person1_blends(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
@@ -962,19 +918,19 @@ ModelImporter:
       scale: {x: 1.0000002, y: 0.9999865, z: 1.0000185}
     - name: special04
       parentName: jaw
-      position: {x: -0.0000000036101755, y: 0.0073165745, z: 0.00000007382831}
-      rotation: {x: 0.000021857557, y: 0.72945184, z: -0.6840322, w: 0.000023271507}
-      scale: {x: 1.0000054, y: 0.99999446, z: 1.0000038}
+      position: {x: -0.000000003762543, y: 0.0073165516, z: 0.000000076174615}
+      rotation: {x: 0.000021855927, y: 0.72945184, z: -0.6840322, w: 0.000023269818}
+      scale: {x: 1.0000006, y: 0.9999931, z: 1.0000002}
     - name: oris02
       parentName: special04
-      position: {x: -0.0000000035954144, y: 0.0031586671, z: -0.00000018845375}
-      rotation: {x: 0.0017777599, y: -0.99303687, z: -0.11681765, w: -0.015111731}
-      scale: {x: 0.9999985, y: 1.0000108, z: 0.99998796}
+      position: {x: -0.0000000035390257, y: 0.0031586676, z: -0.00000019888714}
+      rotation: {x: 0.0017777608, y: -0.99303687, z: -0.11681765, w: -0.015111733}
+      scale: {x: 1.0000025, y: 1.0000128, z: 0.99999046}
     - name: oris01
       parentName: oris02
-      position: {x: -0.0000000047683715, y: 0.0015179307, z: -0.00000022725085}
-      rotation: {x: -0.1226842, y: 0.005116372, z: 0.0033144872, w: 0.9924271}
-      scale: {x: 1, y: 1.0000186, z: 0.99998444}
+      position: {x: -0.000000004656613, y: 0.0015179147, z: -0.00000024927897}
+      rotation: {x: -0.12268424, y: 0.005116373, z: 0.003314484, w: 0.9924271}
+      scale: {x: 1.0000008, y: 1.0000185, z: 0.99998415}
     - name: oris01_end
       parentName: oris01
       position: {x: -0, y: 0.0012496861, z: 0}
@@ -982,14 +938,14 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: oris06.L
       parentName: special04
-      position: {x: -0.0000000035954144, y: 0.0031586671, z: -0.00000018845375}
+      position: {x: -0.0000000035390257, y: 0.0031586676, z: -0.00000019888714}
       rotation: {x: 0.15277411, y: 0.31437486, z: -0.4224404, w: 0.83628505}
-      scale: {x: 1.0000234, y: 0.9999993, z: 0.9999851}
+      scale: {x: 1.0000257, y: 1.0000021, z: 0.9999871}
     - name: oris07.L
       parentName: oris06.L
-      position: {x: 0.00000036720186, y: 0.0014735684, z: 0.0000004873983}
-      rotation: {x: 0.15765825, y: -0.12888576, z: 0.32519498, w: 0.92346114}
-      scale: {x: 0.9999971, y: 1.0000149, z: 0.9999971}
+      position: {x: 0.0000003563799, y: 0.0014735679, z: 0.00000050162896}
+      rotation: {x: 0.15765826, y: -0.12888576, z: 0.32519495, w: 0.92346126}
+      scale: {x: 1.0000048, y: 1.0000137, z: 1.0000014}
     - name: oris07.L_end
       parentName: oris07.L
       position: {x: -0, y: 0.0013047014, z: 0}
@@ -997,14 +953,14 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: oris06.R
       parentName: special04
-      position: {x: -0.0000000035954144, y: 0.0031586671, z: -0.00000018845375}
-      rotation: {x: 0.15263574, y: -0.31588402, z: 0.42503375, w: 0.8344255}
-      scale: {x: 1.0000216, y: 0.9999976, z: 0.9999804}
+      position: {x: -0.0000000035390257, y: 0.0031586676, z: -0.00000019888714}
+      rotation: {x: 0.15263572, y: -0.3158839, z: 0.42503372, w: 0.83442557}
+      scale: {x: 1.0000178, y: 0.9999994, z: 0.9999743}
     - name: oris07.R
       parentName: oris06.R
-      position: {x: -0.000000107362865, y: 0.0014799692, z: 0.0000006172806}
-      rotation: {x: 0.15913332, y: 0.12686275, z: -0.3209001, w: 0.92498946}
-      scale: {x: 0.99998987, y: 1.0000129, z: 0.9999914}
+      position: {x: -0.0000000975281, y: 0.0014799702, z: 0.0000006061047}
+      rotation: {x: 0.15913333, y: 0.12686263, z: -0.3209, w: 0.9249895}
+      scale: {x: 1, y: 1.0000157, z: 0.9999988}
     - name: oris07.R_end
       parentName: oris07.R
       position: {x: -0, y: 0.0013199805, z: 0}
@@ -1012,29 +968,29 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: tongue00
       parentName: jaw
-      position: {x: -0.0000000036101755, y: 0.0073165745, z: 0.00000007382831}
-      rotation: {x: 0.000034089662, y: -0.07747968, z: -0.9969939, w: 0.000013865849}
-      scale: {x: 0.99999875, y: 0.999984, z: 0.9999988}
+      position: {x: -0.000000003762543, y: 0.0073165516, z: 0.000000076174615}
+      rotation: {x: 0.000034089662, y: -0.07747968, z: -0.9969939, w: 0.000013866489}
+      scale: {x: 0.999999, y: 0.9999847, z: 0.999999}
     - name: tongue01
       parentName: tongue00
-      position: {x: -0.000000003522109, y: 0.004640963, z: -0.00000014325242}
-      rotation: {x: -0.8680181, y: -0.000015015024, z: -0.00002618374, w: 0.4965328}
-      scale: {x: 1.000017, y: 0.99997985, z: 1.00005}
+      position: {x: -0.0000000035809353, y: 0.0046409657, z: -0.0000001311145}
+      rotation: {x: -0.8680181, y: -0.000015016423, z: -0.000026183365, w: 0.4965328}
+      scale: {x: 1.0000155, y: 0.9999782, z: 1.0000474}
     - name: tongue02
       parentName: tongue01
-      position: {x: 4.006324e-11, y: 0.0027117068, z: 0.0000003697359}
-      rotation: {x: -0.08017839, y: 0.000000118113775, z: 0.000004930347, w: 0.9967805}
-      scale: {x: 0.99999696, y: 0.9999995, z: 1.0000007}
+      position: {x: -0, y: 0.0027117084, z: 0.00000035956893}
+      rotation: {x: -0.08017839, y: 0.00000011960034, z: 0.0000049317796, w: 0.9967805}
+      scale: {x: 0.9999975, y: 0.99999887, z: 1.0000019}
     - name: tongue03
       parentName: tongue02
-      position: {x: -2.1846061e-11, y: 0.0018660651, z: -0.00000051305955}
-      rotation: {x: -0.23770821, y: 0.0000018556029, z: 0.0000141513465, w: 0.97133666}
-      scale: {x: 1.0000051, y: 0.9999959, z: 1.0000098}
+      position: {x: -9.313225e-11, y: 0.0018660645, z: -0.0000005145918}
+      rotation: {x: -0.23770821, y: 0.000001854247, z: 0.00001414944, w: 0.97133666}
+      scale: {x: 1.000005, y: 0.9999944, z: 1.0000119}
     - name: tongue04
       parentName: tongue03
-      position: {x: -3.3105605e-11, y: 0.00085508334, z: 0.00000021416564}
-      rotation: {x: 0.0000009089704, y: -0.0000000027604288, z: -8.641617e-10, w: 1}
-      scale: {x: 1.0000066, y: 1.0000036, z: 1.0000001}
+      position: {x: 2.7939677e-11, y: 0.0008550774, z: 0.00000023168977}
+      rotation: {x: 0.0000009089704, y: -8.292314e-10, z: 0.0000000033666068, w: 1}
+      scale: {x: 1.0000066, y: 1.000003, z: 0.9999999}
     - name: tongue04_end
       parentName: tongue04
       position: {x: -0, y: 0.00085507846, z: 0}
@@ -1042,9 +998,9 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: tongue07.L
       parentName: tongue03
-      position: {x: -3.3105605e-11, y: 0.00085508334, z: 0.00000021416564}
-      rotation: {x: -0.44581974, y: -0.51973647, z: -0.3685306, w: 0.628732}
-      scale: {x: 1.0000051, y: 1.0000021, z: 1.0000051}
+      position: {x: 2.7939677e-11, y: 0.0008550774, z: 0.00000023168977}
+      rotation: {x: -0.44581977, y: -0.5197364, z: -0.3685306, w: 0.628732}
+      scale: {x: 1.0000001, y: 0.99999803, z: 1.0000046}
     - name: tongue07.L_end
       parentName: tongue07.L
       position: {x: -0, y: 0.0011402874, z: 0}
@@ -1052,9 +1008,9 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: tongue07.R
       parentName: tongue03
-      position: {x: -3.3105605e-11, y: 0.00085508334, z: 0.00000021416564}
-      rotation: {x: 0.44797963, y: -0.5198361, z: -0.37287953, w: -0.6245363}
-      scale: {x: 1.0000037, y: 0.9999985, z: 1.000005}
+      position: {x: 2.7939677e-11, y: 0.0008550774, z: 0.00000023168977}
+      rotation: {x: 0.44797966, y: -0.5198361, z: -0.37287953, w: -0.6245363}
+      scale: {x: 1.0000036, y: 0.9999982, z: 1.0000058}
     - name: tongue07.R_end
       parentName: tongue07.R
       position: {x: -0, y: 0.0011769339, z: 0}
@@ -1062,9 +1018,9 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: tongue06.L
       parentName: tongue02
-      position: {x: -2.1846061e-11, y: 0.0018660651, z: -0.00000051305955}
+      position: {x: -9.313225e-11, y: 0.0018660645, z: -0.0000005145918}
       rotation: {x: -0.5647361, y: -0.41651425, z: -0.3980967, w: 0.5908537}
-      scale: {x: 1.0000073, y: 1.0000051, z: 1.0000011}
+      scale: {x: 1.0000083, y: 1.0000063, z: 1.0000015}
     - name: tongue06.L_end
       parentName: tongue06.L
       position: {x: -0, y: 0.0015981117, z: 0}
@@ -1072,9 +1028,9 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: tongue06.R
       parentName: tongue02
-      position: {x: -2.1846061e-11, y: 0.0018660651, z: -0.00000051305955}
-      rotation: {x: 0.56339407, y: -0.41873726, z: -0.40063486, w: -0.5888447}
-      scale: {x: 1.0000067, y: 1.0000079, z: 1.0000012}
+      position: {x: -9.313225e-11, y: 0.0018660645, z: -0.0000005145918}
+      rotation: {x: 0.56339407, y: -0.41873714, z: -0.40063483, w: -0.5888447}
+      scale: {x: 1.0000043, y: 1.0000051, z: 0.9999996}
     - name: tongue06.R_end
       parentName: tongue06.R
       position: {x: -0, y: 0.0016352508, z: 0}
@@ -1082,9 +1038,9 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: tongue05.L
       parentName: tongue01
-      position: {x: 4.006324e-11, y: 0.0027117068, z: 0.0000003697359}
-      rotation: {x: -0.49497923, y: -0.4787193, z: -0.38601658, w: 0.6138524}
-      scale: {x: 1.0000027, y: 1.0000021, z: 0.99999994}
+      position: {x: -0, y: 0.0027117084, z: 0.00000035956893}
+      rotation: {x: -0.49497914, y: -0.4787192, z: -0.3860166, w: 0.61385244}
+      scale: {x: 1.0000024, y: 1.0000026, z: 0.99999905}
     - name: tongue05.L_end
       parentName: tongue05.L
       position: {x: -0, y: 0.0019112423, z: 0}
@@ -1092,9 +1048,9 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: tongue05.R
       parentName: tongue01
-      position: {x: 4.006324e-11, y: 0.0027117068, z: 0.0000003697359}
+      position: {x: -0, y: 0.0027117084, z: 0.00000035956893}
       rotation: {x: 0.4952605, y: -0.4794962, z: -0.38828957, w: -0.61158127}
-      scale: {x: 1.0000018, y: 1.0000026, z: 0.9999987}
+      scale: {x: 1.0000019, y: 1.000003, z: 0.99999833}
     - name: tongue05.R_end
       parentName: tongue05.R
       position: {x: -0, y: 0.001948615, z: 0}
@@ -1467,37 +1423,37 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Person1:Shoes03
-      parentName: person1 (4)(Clone)
+      parentName: person1_blends(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Person1:Male_casualsuit01
-      parentName: person1 (4)(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-      scale: {x: 100, y: 100, z: 100}
-    - name: Person1:Eyelashes01
-      parentName: person1 (4)(Clone)
+      parentName: person1_blends(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Person1:Eyebrow001
-      parentName: person1 (4)(Clone)
+      parentName: person1_blends(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Person1:High-poly
-      parentName: person1 (4)(Clone)
+      parentName: person1_blends(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Person1:Short01
-      parentName: person1 (4)(Clone)
+      parentName: person1_blends(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Person1:Male_generic
-      parentName: person1 (4)(Clone)
+      parentName: person1_blends(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Person1:Eyelashes01
+      parentName: person1_blends(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
